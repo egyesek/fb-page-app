@@ -1,0 +1,12 @@
+     .nev span{
+                float:left;
+            }
+            .linkek{
+                position:absolute;
+                display:inline-block;
+                left:200px;
+            }
+            .nev{
+                position:relative;
+                overflow:hidden;
+            }
