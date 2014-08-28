@@ -13,7 +13,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="style.css"/>        
     </head>
     <body>
-        <h1>Csoportjaink és Oldalaink</h1>
+        <h1>Groups / Csoportok</h1>
         <div id="cs">            
         </div>
     </body>

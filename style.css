@@ -1,12 +1,56 @@
-     .nev span{
-                float:left;
-            }
-            .linkek{
-                position:absolute;
-                display:inline-block;
-                left:200px;
-            }
-            .nev{
-                position:relative;
-                overflow:hidden;
-            }
+body{
+    font-family: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.38;
+    font-size:14px;
+}
+*, *:after, *:before{
+    box-sizing:border-box;
+}
+.nev span{
+    float:left;
+}
+.linkek{
+    position:absolute;
+    display:inline-block;
+    left:200px;
+}
+.nev{ 
+    background: #01969C url(overlay.png) repeat-x;
+    display: inline-block;
+    padding: 7px 7px;
+    color: #fff;
+    font-size:1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    width:100%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    text-shadow: 0 -1px 1px #222;
+    border-bottom: 1px solid #222;
+    position: relative;
+    cursor: pointer;
+
+}
+.nev:hover{
+    background-color:rgba(1, 150,  156, 0.85)
+}
+h1{
+    font-size:2.2em;
+}
+h2{
+    font-size:1.6em;
+}
+img{
+    width:25px;
+    float:right;
+}
+h2, h1{
+    text-align:center;
+    color: #01969C;
+}
+#cs > div{
+
+}
