@@ -6,6 +6,8 @@ body{
 }
 *, *:after, *:before{
     box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;    
 }
 .nev span{
     float:left;
@@ -24,8 +26,10 @@ body{
     text-decoration: none;
     font-weight: bold;
     width:100%;
+    border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    box-shadow: 0 1px 3px #999;
     -moz-box-shadow: 0 1px 3px #999;
     -webkit-box-shadow: 0 1px 3px #999;
     text-shadow: 0 -1px 1px #222;
@@ -46,6 +50,7 @@ h2{
 img{
     width:25px;
     float:right;
+    border:0;
 }
 h2, h1{
     text-align:center;
