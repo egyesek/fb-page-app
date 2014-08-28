@@ -19,7 +19,7 @@ $(document).ready(function() {
                         src='groups.png';
                         tooltip = 'Group';
                     }
-                    $ev.append('<a class="nev" href="' + link + '"><span>' + nev + '</span><img src="'+src+'" title="'+tooltip+'""></img></a>');
+                    $ev.append('<a target="_blank" class="nev" href="' + link + '"><span>' + nev + '</span><img src="'+src+'" title="'+tooltip+'""></img></a>');
                 }
             }
         }
