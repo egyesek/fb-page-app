@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.getJSON("data.json", function(json) {                
+    $.getJSON("http://egyesek.hu/csoportlista.php", function(json) {                
         for (var ev in json) {                    
             var $ev = $('<div><h2>' + ev + '</h2></div>');
             $('#cs').append($ev);                    
