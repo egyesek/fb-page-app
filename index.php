@@ -14,7 +14,11 @@ and open the template in the editor.
     </head>
     <body>
         <h1>Groups / Csoportok</h1>
+        <div id="cstop"></div>
         <div id="cs">            
+        </div>
+        <div id="csbottom">
+            <h2>Creative Space / Kreatív Tér</h2>
         </div>
     </body>
 </html>
