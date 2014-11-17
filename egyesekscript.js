@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.getJSON("getjson.php", function(json) {                
+    $.getJSON("//getjson.php", function(json) {                
          for (var ev in json) {
             if (ev === " 2002") {
                 var datum = json[ev];
