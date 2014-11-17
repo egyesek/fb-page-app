@@ -13,7 +13,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="style.css"/>        
 		<script>
 $(document).ready(function() {
-    $.getJSON("http://egyesek.hu/egyesekscript.php", function(adatok) {
+    $.getJSON("http://egyesek.hu/csoportlista.php", function(adatok) {
 		
 		var data = { data: JSON.stringify( adatok ) };
 		$.ajax({
